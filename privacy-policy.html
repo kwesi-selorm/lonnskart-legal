@@ -1,640 +1,1040 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Lonnskart Privacy Policy - Learn how we protect your data and ensure salary transparency with privacy">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Lonnskart Privacy Policy - Learn how we protect your data and ensure salary transparency with privacy"
+    />
     <title>Privacy Policy - Lonnskart</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap"
+      rel="stylesheet"
+    />
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
 
-        :root {
-            --primary-color: #13A4EC;
-            --secondary-color: #4ADE80;
-            --text-color: #1f2937;
-            --text-light: #6b7280;
-            --background: #ffffff;
-            --section-bg: #f9fafb;
-            --border-color: #e5e7eb;
-        }
+      :root {
+        --primary-color: #13a4ec;
+        --secondary-color: #4ade80;
+        --text-color: #1f2937;
+        --text-light: #6b7280;
+        --background: #ffffff;
+        --section-bg: #f9fafb;
+        --border-color: #e5e7eb;
+      }
 
-        body {
-            font-family: 'Bricolage Grotesque',-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', sans-serif;
-            line-height: 1.4;
-            color: var(--text-color);
-            background: var(--background);
-            padding: 0;
-            margin: 0;
-        }
+      body {
+        font-family:
+          "Bricolage Grotesque",
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          "Roboto",
+          "Helvetica",
+          "Arial",
+          sans-serif;
+        line-height: 1.4;
+        color: var(--text-color);
+        background: var(--background);
+        padding: 0;
+        margin: 0;
+      }
 
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      header {
+        text-align: center;
+        padding: 40px 20px 0;
+        border-bottom: 1px solid var(--border-color);
+      }
+
+      header h1 {
+        font-size: 2rem;
+        font-weight: 700;
+        color: var(--text-color);
+        margin-bottom: 10px;
+      }
+
+      .app-name {
+        font-size: 2.5rem;
+        font-weight: 800;
+        color: var(--primary-color);
+        -webkit-background-clip: text;
+        /*-webkit-text-fill-color: transparent;*/
+        /*background-clip: text;*/
+        margin-bottom: 5px;
+      }
+
+      .last-updated {
+        color: var(--text-light);
+        font-size: 0.9rem;
+        margin-top: 10px;
+      }
+
+      .summary-box {
+        background: linear-gradient(
+          135deg,
+          rgba(19, 164, 236, 0.1),
+          rgba(74, 222, 128, 0.1)
+        );
+        padding: 5px 20px 20px;
+        border-radius: 8px;
+        border-left: 4px solid var(--primary-color);
+      }
+
+      .summary-box h2 {
+        color: var(--primary-color);
+        font-size: 1.3rem;
+        margin-top: 10px;
+        margin-bottom: 15px;
+      }
+
+      .summary-box ul {
+        list-style: none;
+        padding-left: 0;
+      }
+
+      .summary-box li {
+        padding: 8px 0 8px 25px;
+        position: relative;
+        color: var(--text-color);
+      }
+
+      .summary-box li:before {
+        content: "✓";
+        position: absolute;
+        left: 0;
+        color: var(--secondary-color);
+        font-weight: bold;
+      }
+
+      h2 {
+        color: var(--text-color);
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-top: 40px;
+        margin-bottom: 15px;
+        padding-bottom: 10px;
+        border-bottom: 2px solid var(--border-color);
+      }
+
+      h3 {
+        color: var(--text-color);
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-top: 25px;
+        margin-bottom: 12px;
+      }
+
+      p {
+        margin-bottom: 15px;
+        color: var(--text-color);
+      }
+
+      ul,
+      ol {
+        margin-left: 20px;
+        margin-bottom: 15px;
+      }
+
+      li {
+        margin-bottom: 8px;
+        color: var(--text-color);
+      }
+
+      strong {
+        color: var(--text-color);
+        font-weight: 600;
+      }
+
+      .contact-box {
+        background: var(--section-bg);
+        padding: 20px;
+        border-radius: 8px;
+        margin: 30px 0;
+        border: 1px solid var(--border-color);
+      }
+
+      .contact-box h3 {
+        margin-top: 0;
+        color: var(--primary-color);
+      }
+
+      .highlight-box {
+        background: #fef3c7;
+        border-left: 4px solid #f59e0b;
+        padding: 15px;
+        margin: 20px 0;
+        border-radius: 4px;
+      }
+
+      .highlight-box strong {
+        color: #92400e;
+      }
+
+      a {
+        color: var(--primary-color);
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      footer {
+        text-align: center;
+        padding: 40px 20px;
+        margin-top: 60px;
+        border-top: 1px solid var(--border-color);
+        color: var(--text-light);
+        font-size: 0.9rem;
+      }
+
+      @media (max-width: 768px) {
         .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-
-        header {
-            text-align: center;
-            padding: 40px 20px 0;
-            border-bottom: 1px solid var(--border-color);
+          padding: 15px;
         }
 
         header h1 {
-            font-size: 2rem;
-            font-weight: 700;
-            color: var(--text-color);
-            margin-bottom: 10px;
+          font-size: 1.5rem;
         }
 
         .app-name {
-            font-size: 2.5rem;
-            font-weight: 800;
-            color: var(--primary-color);
-            -webkit-background-clip: text;
-            /*-webkit-text-fill-color: transparent;*/
-            /*background-clip: text;*/
-            margin-bottom: 5px;
-        }
-
-        .last-updated {
-            color: var(--text-light);
-            font-size: 0.9rem;
-            margin-top: 10px;
-        }
-
-        .summary-box {
-            background: linear-gradient(135deg, rgba(19, 164, 236, 0.1), rgba(74, 222, 128, 0.1));
-            padding: 5px 20px 20px;
-            border-radius: 8px;
-            border-left: 4px solid var(--primary-color);
-        }
-
-        .summary-box h2 {
-            color: var(--primary-color);
-            font-size: 1.3rem;
-            margin-top: 10px;
-            margin-bottom: 15px;
-        }
-
-        .summary-box ul {
-            list-style: none;
-            padding-left: 0;
-        }
-
-        .summary-box li {
-            padding: 8px 0 8px 25px;
-            position: relative;
-            color: var(--text-color);
-        }
-
-        .summary-box li:before {
-            content: "✓";
-            position: absolute;
-            left: 0;
-            color: var(--secondary-color);
-            font-weight: bold;
+          font-size: 2rem;
         }
 
         h2 {
-            color: var(--text-color);
-            font-size: 1.5rem;
-            font-weight: 700;
-            margin-top: 40px;
-            margin-bottom: 15px;
-            padding-bottom: 10px;
-            border-bottom: 2px solid var(--border-color);
+          font-size: 1.3rem;
         }
 
         h3 {
-            color: var(--text-color);
-            font-size: 1.2rem;
-            font-weight: 600;
-            margin-top: 25px;
-            margin-bottom: 12px;
+          font-size: 1.1rem;
         }
-
-        p {
-            margin-bottom: 15px;
-            color: var(--text-color);
-        }
-
-        ul, ol {
-            margin-left: 20px;
-            margin-bottom: 15px;
-        }
-
-        li {
-            margin-bottom: 8px;
-            color: var(--text-color);
-        }
-
-        strong {
-            color: var(--text-color);
-            font-weight: 600;
-        }
-
-        .contact-box {
-            background: var(--section-bg);
-            padding: 20px;
-            border-radius: 8px;
-            margin: 30px 0;
-            border: 1px solid var(--border-color);
-        }
-
-        .contact-box h3 {
-            margin-top: 0;
-            color: var(--primary-color);
-        }
-
-        .highlight-box {
-            background: #fef3c7;
-            border-left: 4px solid #f59e0b;
-            padding: 15px;
-            margin: 20px 0;
-            border-radius: 4px;
-        }
-
-        .highlight-box strong {
-            color: #92400e;
-        }
-
-        a {
-            color: var(--primary-color);
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        footer {
-            text-align: center;
-            padding: 40px 20px;
-            margin-top: 60px;
-            border-top: 1px solid var(--border-color);
-            color: var(--text-light);
-            font-size: 0.9rem;
-        }
-
-        @media (max-width: 768px) {
-            .container {
-                padding: 15px;
-            }
-
-            header h1 {
-                font-size: 1.5rem;
-            }
-
-            .app-name {
-                font-size: 2rem;
-            }
-
-            h2 {
-                font-size: 1.3rem;
-            }
-
-            h3 {
-                font-size: 1.1rem;
-            }
-        }
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div class="app-name">Lonnskart</div>
-        <h1>Privacy Policy</h1>
-        <p class="last-updated">Last Updated: January 29, 2026</p>
+      <div class="app-name">Lonnskart</div>
+      <h1>Privacy Policy</h1>
+      <p class="last-updated">Last Updated: February 8, 2026</p>
     </header>
 
     <div class="container">
-        <div class="summary-box">
-            <h2>Summary of Key Points</h2>
-            <ul>
-                <li><strong>Anonymous salary sharing:</strong> Your salary submissions are pseudonymized and not directly linked to your account publicly</li>
-                <li><strong>Your rights:</strong> You can access, correct, export, or delete your data at any time</li>
-                <li><strong>No data selling:</strong> We never sell your personal information to third parties</li>
-                <li><strong>Security:</strong> We use encryption and industry-standard security practices</li>
-                <li><strong>GDPR compliant:</strong> We fully comply with EU data protection regulations</li>
-                <li><strong>Minimal data collection:</strong> We only collect what's necessary to provide our service</li>
-                <li><strong>Your control:</strong> You control what information you share and can delete your account anytime</li>
-            </ul>
+      <div class="summary-box">
+        <h2>Summary of Key Points</h2>
+        <ul>
+          <li>
+            <strong>Anonymous salary sharing:</strong> Your salary submissions
+            are pseudonymized and not directly linked to your account publicly
+          </li>
+          <li>
+            <strong>Your rights:</strong> You can access, correct, export, or
+            delete your data at any time
+          </li>
+          <li>
+            <strong>No data selling:</strong> We never sell your personal
+            information to third parties
+          </li>
+          <li>
+            <strong>Security:</strong> We use encryption and industry-standard
+            security practices
+          </li>
+          <li>
+            <strong>GDPR compliant:</strong> We fully comply with EU data
+            protection regulations
+          </li>
+          <li>
+            <strong>Minimal data collection:</strong> We only collect what's
+            necessary to provide our service
+          </li>
+          <li>
+            <strong>Your control:</strong> You control what information you
+            share and can delete your account anytime
+          </li>
+        </ul>
+      </div>
+
+      <section>
+        <h2>1. Introduction</h2>
+        <p>
+          Welcome to Lonnskart. We are committed to protecting your privacy and
+          ensuring transparency about how we collect, use, and protect your
+          personal data.
+        </p>
+        <p>
+          This Privacy Policy explains how Lonnskart ("we", "our", or "us")
+          collects, uses, shares, and protects your information when you use our
+          mobile application and services (collectively, the "Service"). This
+          policy applies to all users in and outside the European Economic Area
+          (EEA), starting from Norway.
+        </p>
+        <p>
+          By using Lonnskart, you agree to the collection and use of information
+          in accordance with this Privacy Policy.
+        </p>
+      </section>
+
+      <section>
+        <h2>2. Data Controller</h2>
+        <div class="contact-box">
+          <p>The data controller responsible for your personal data is:</p>
+          <p>
+            <strong>Lonnskart</strong><br />
+            <!--                [Your Company Address]<br>-->
+            support@lonnskart.com<br />
+            +4740999530
+          </p>
+          <p>
+            For any questions about this Privacy Policy or our data practices,
+            please contact us at the above details.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <h2>3. What Information We Collect</h2>
+
+        <h3>3.1 Information You Provide Directly</h3>
+        <p>
+          When you use Lonnskart, you may provide us with the following
+          information:
+        </p>
+
+        <p><strong>Account Information:</strong></p>
+        <ul>
+          <li>Email address</li>
+          <li>Password (stored securely using industry-standard encryption)</li>
+          <!--                <li>Profile preferences</li>-->
+        </ul>
+
+        <p><strong>Salary Data Submissions:</strong></p>
+        <ul>
+          <li>Institution type</li>
+          <li>Job category</li>
+          <li>Specific job title</li>
+          <li>Salary amount and currency</li>
+          <li>Highest level of eduction</li>
+          <li>Years of experience</li>
+          <li>Sector</li>
+          <li>Location (city/country)</li>
+          <li>Employment type (full-time or part-time)</li>
+          <!--                <li>Additional compensation details (bonuses, stock options, benefits)</li>-->
+          <!--                <li>Other optional metadata you choose to share</li>-->
+        </ul>
+
+        <p><strong>Interaction Data:</strong></p>
+        <ul>
+          <li>Salaries you contribute and manage</li>
+          <li>Upvotes,comments, and reports on salary entries</li>
+          <li>Feedback and user requests you submit</li>
+          <!--                <li>Saved or bookmarked entries</li>-->
+        </ul>
+
+        <h3>3.2 Information We Collect Automatically</h3>
+        <p><strong>Technical Information:</strong></p>
+        <ul>
+          <li>Crash reports and error logs</li>
+          <li>Login sessions</li>
+        </ul>
+
+        <p><strong>Location Detection:</strong></p>
+        <ul>
+          <li>
+            We use GeoJS, a third-party geolocation service, to determine your
+            approximate country based on your public IP address when you first
+            open the app. This helps us automatically pre-select your country in
+            the app interface for a better user experience. Your IP address is
+            sent to GeoJS solely for this purpose and is not stored by us. GeoJS
+            processes this data in accordance with their privacy policy,
+            available at
+            <a
+              href="https://www.geojs.io/privacy/"
+              target="_blank"
+              >geojs.io/privacy/</a
+            >.
+          </li>
+        </ul>
+
+        <h3>3.3 Information We Do Not Collect</h3>
+        <p>We do <strong>NOT</strong> collect:</p>
+        <ul>
+          <li>Your real name</li>
+          <li>Government identification numbers</li>
+          <li>Payment information (Lonnskart is free to use currently)</li>
+          <li>
+            Precise geolocation data beyond the city/region you manually specify
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>4. Initial Seed Data and Sources</h2>
+        <p>
+          To launch Lonnskart with meaningful salary insights, we collected
+          initial seed data from publicly available sources. We believe in
+          complete transparency about where this data comes from and how we
+          collected it.
+        </p>
+
+        <h3>4.1 Overview of Initial Dataset</h3>
+        <p>
+          Our initial database contains
+          <strong>151 verified salary entries</strong> collected from publicly
+          shared salary information on platforms where professionals voluntarily
+          disclosed their salaries. This seed data provides:
+        </p>
+        <ul>
+          <li><strong>27 countries</strong> represented across 5 continents</li>
+          <li>
+            <strong>21 currencies</strong> including NOK, USD, EUR, GBP, and
+            more
+          </li>
+          <li>
+            <strong>13 job categories</strong> from technology to healthcare to
+            education
+          </li>
+          <li>
+            <strong>Norwegian focus:</strong> 34 entries (22.5% of dataset) from
+            Norway covering Oslo, Bergen, Trondheim, and Stavanger
+          </li>
+          <li>
+            <strong>Time period:</strong> 2020-2025, with most entries from
+            2024-2025
+          </li>
+        </ul>
+
+        <h3>4.2 Data Sources</h3>
+        <p>
+          We collected salary data only from publicly available sources where
+          professionals voluntarily shared their salary information:
+        </p>
+        <ul>
+          <li>
+            <strong>Reddit:</strong> Salary transparency communities including
+            r/cscareerquestions, r/nursing, r/teachers, r/norge, and other
+            career-focused subreddits
+          </li>
+          <li>
+            <strong>Levels.fyi:</strong> Public tech salary data shared by
+            professionals
+          </li>
+          <li><strong>Glassdoor:</strong> Verified employee salary reports</li>
+          <li>
+            <strong>Blind:</strong> Anonymous professional community salary
+            discussions
+          </li>
+          <li>
+            <strong>Norwegian platforms:</strong> Kode24 (tech salary
+            discussions), Norwegian Reddit communities, and tech Slack
+            communities
+          </li>
+          <li>
+            <strong>LinkedIn Salary Insights:</strong> Publicly available salary
+            ranges
+          </li>
+        </ul>
+
+        <h3>4.3 Collection Methodology</h3>
+        <p>
+          Our approach to collecting seed data was designed with privacy and
+          accuracy as top priorities:
+        </p>
+        <ul>
+          <li>
+            <strong>Public sources only:</strong> We only collected salaries
+            that people chose to share publicly on salary transparency platforms
+          </li>
+          <li>
+            <strong>Full anonymization:</strong> All data was anonymized during
+            collection—no names, company names, email addresses, or other
+            identifying information was collected
+          </li>
+          <li>
+            <strong>Manual verification:</strong> Each entry was manually
+            reviewed and cross-referenced against market data for reasonableness
+          </li>
+          <li>
+            <strong>Geographic limitation:</strong> Location data is limited to
+            city level only
+          </li>
+          <li>
+            <strong>Quality control:</strong> We removed outliers and entries
+            that couldn't be verified against multiple sources
+          </li>
+        </ul>
+
+        <h3>4.4 Verification Process</h3>
+        <p>Every entry in our seed dataset underwent rigorous verification:</p>
+        <ul>
+          <li>
+            Cross-referenced against market salary data for each role and
+            location
+          </li>
+          <li>Validated that job titles match our standardized categories</li>
+          <li>Confirmed currencies align with countries and regions</li>
+          <li>
+            Verified years of experience correlate reasonably with salary levels
+          </li>
+          <li>
+            Removed statistically unlikely entries (outliers more than 30%
+            above/below market averages)
+          </li>
+          <li>
+            Ensured compliance with our job category taxonomy (35 categories)
+            and industry classification (114 sectors)
+          </li>
+        </ul>
+
+        <h3>4.5 Privacy Protection for Seed Data</h3>
+        <div class="highlight-box">
+          <p>
+            <strong>Important:</strong> The seed data is subject to the same
+            privacy protections as user-contributed data:
+          </p>
+          <ul>
+            <li>No personal identifiable information included</li>
+            <li>No company names or identifying details</li>
+            <li>Only publicly shared information used</li>
+            <li>Full GDPR compliance maintained</li>
+            <li>Location limited to city level only</li>
+          </ul>
         </div>
 
-        <section>
-            <h2>1. Introduction</h2>
-            <p>Welcome to Lonnskart. We are committed to protecting your privacy and ensuring transparency about how we collect, use, and protect your personal data.</p>
-            <p>This Privacy Policy explains how Lonnskart ("we", "our", or "us") collects, uses, shares, and protects your information when you use our mobile application and services (collectively, the "Service"). This policy applies to all users in and outside the European Economic Area (EEA), starting from Norway.</p>
-            <p>By using Lonnskart, you agree to the collection and use of information in accordance with this Privacy Policy.</p>
-        </section>
-
-        <section>
-            <h2>2. Data Controller</h2>
-            <div class="contact-box">
-                <p>The data controller responsible for your personal data is:</p>
-                <p><strong>Lonnskart</strong><br>
-<!--                [Your Company Address]<br>-->
-                <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="592a2c2929362b2d19353637372a32382b2d773a3634">[email&#160;protected]</a><br>
-                +4740999530</p>
-                <p>For any questions about this Privacy Policy or our data practices, please contact us at the above details.</p>
-            </div>
-        </section>
-
-        <section>
-            <h2>3. What Information We Collect</h2>
-
-            <h3>3.1 Information You Provide Directly</h3>
-            <p>When you use Lonnskart, you may provide us with the following information:</p>
-            
-            <p><strong>Account Information:</strong></p>
+        <h3>4.6 Norwegian Market Coverage</h3>
+        <p>
+          We paid special attention to collecting comprehensive Norwegian salary
+          data:
+        </p>
+        <ul>
+          <li><strong>34 verified entries</strong> from Norway (2020-2025)</li>
+          <li>
+            <strong>Cities covered:</strong> Oslo, Bergen, Trondheim, Stavanger
+          </li>
+          <li>
+            <strong>Primary sectors:</strong> Technology, Healthcare, Education
+          </li>
+          <li>
+            <strong>Example salary ranges:</strong>
             <ul>
-                <li>Email address</li>
-                <li>Password (stored securely using industry-standard encryption)</li>
-<!--                <li>Profile preferences</li>-->
+              <li>Junior Software Engineers: ~655,000 NOK</li>
+              <li>Software Engineers: 650,000 - 970,000 NOK</li>
+              <li>Senior Software Engineers: 720,000 - 920,000 NOK</li>
+              <li>Registered Nurses: 510,000 - 630,000 NOK</li>
+              <li>Teachers: 450,000 - 510,000 NOK</li>
             </ul>
+          </li>
+        </ul>
 
-            <p><strong>Salary Data Submissions:</strong></p>
-            <ul>
-                <li>Job category</li>
-                <li>Specific job title</li>
-                <li>Salary amount and currency</li>
-                <li>Years of experience</li>
-                <li>Sector</li>
-                <li>Location (city/country)</li>
-                <li>Employment type (full-time or part-time)</li>
-<!--                <li>Additional compensation details (bonuses, stock options, benefits)</li>-->
-<!--                <li>Other optional metadata you choose to share</li>-->
-            </ul>
+        <h3>4.7 Limitations and Disclaimers</h3>
+        <p>
+          We believe in honest communication about the limitations of our seed
+          data:
+        </p>
+        <ul>
+          <li>
+            <strong>Sample size:</strong> 151 entries is our foundation—some
+            roles and locations have limited representation
+          </li>
+          <li>
+            <strong>Self-reported data:</strong> All salaries are self-reported
+            by individuals; we verify for reasonableness but cannot
+            independently confirm every submission
+          </li>
+          <li>
+            <strong>Time periods:</strong> Data spans 2020-2025; older entries
+            may not reflect current market rates
+          </li>
+          <li>
+            <strong>Geographic bias:</strong> Heavy concentration in US (36.4%)
+            and Norwegian (22.5%) markets
+          </li>
+          <li>
+            <strong>Role coverage:</strong> Tech roles are overrepresented due
+            to active online salary discussions on platforms like Reddit
+          </li>
+        </ul>
 
-            <p><strong>Interaction Data:</strong></p>
-            <ul>
-                <li>Likes on salary entries</li>
-                <li>Feedback and suggestions you submit</li>
-<!--                <li>Saved or bookmarked entries</li>-->
-            </ul>
+        <h3>4.8 Ethical Data Collection</h3>
+        <p>
+          Our approach respects individual privacy and follows the spirit of
+          salary transparency movements:
+        </p>
+        <ul>
+          <li>
+            We only use publicly shared information where individuals
+            voluntarily disclosed their salaries
+          </li>
+          <li>
+            We don't scrape private company data or require unauthorized access
+          </li>
+          <li>We respect GDPR and Norwegian data protection laws</li>
+          <li>
+            We prioritize quality over quantity—manually reviewing each entry
+            rather than scraping thousands of unverified entries
+          </li>
+        </ul>
 
-            <h3>3.2 Information We Collect Automatically</h3>
-            <p><strong>Technical Information:</strong></p>
-            <ul>
-                <li>Device type and operating system</li>
-<!--                <li>IP address (anonymized for analytics purposes)</li>-->
-<!--                <li>App usage statistics and interactions</li>-->
-                <li>Crash reports and error logs</li>
-                <li>Session duration and frequency of use</li>
-            </ul>
+        <h3>4.9 Growing the Database</h3>
+        <p>
+          The 151 seed entries are just our foundation. Lonnskart's true value
+          comes from <strong>community contributions</strong>—your salary
+          submissions. Every verified salary you add:
+        </p>
+        <ul>
+          <li>Helps professionals in your field make informed decisions</li>
+          <li>
+            Increases transparency in the Norwegian and global job markets
+          </li>
+          <li>Creates better negotiation power for everyone</li>
+          <li>Is completely anonymous and secure</li>
+        </ul>
+        <p>
+          We will not continue to add seed data from external sources. All
+          future data growth comes from users like you.
+        </p>
 
-<!--            <p><strong>Analytics Data:</strong></p>-->
-<!--            <ul>-->
-<!--                <li>Anonymous usage patterns</li>-->
-<!--                <li>Feature usage statistics</li>-->
-<!--                <li>Performance metrics</li>-->
-<!--            </ul>-->
+        <h3>4.10 Transparency Updates</h3>
+        <p>
+          We maintain a detailed
+          <strong>Data Transparency Statement</strong> that provides complete
+          information about our methodology, verification process, and data
+          sources. This statement is regularly updated and available for review.
+        </p>
+      </section>
 
-            <h3>3.3 Information We Do Not Collect</h3>
-            <p>We do <strong>not</strong> collect:</p>
-            <ul>
-                <li>Your real name</li>
-                <li>Government identification numbers</li>
-                <li>Payment information (Lonnskart is free to use currently)</li>
-                <li>Precise geolocation data beyond the city/region you manually specify</li>
-            </ul>
-        </section>
+      <section>
+        <h2>5. How We Use Your Information</h2>
 
-        <section>
-            <h2>4. Initial Seed Data and Sources</h2>
-            <p>To launch Lonnskart with meaningful salary insights, we collected initial seed data from publicly available sources. We believe in complete transparency about where this data comes from and how we collected it.</p>
+        <h3>5.1 Primary Services</h3>
+        <ul>
+          <li>
+            <strong>Salary transparency:</strong> To create an anonymous
+            database of salary information for market insights
+          </li>
+          <li>
+            <strong>User authentication:</strong> To verify your identity and
+            secure your account
+          </li>
+          <li>
+            <strong>Data accuracy:</strong> To prevent spam, fraud, and
+            duplicate submissions through rate limiting
+          </li>
+          <li>
+            <strong>Market insights:</strong> To generate aggregated statistics
+            and trends about salary data
+          </li>
+          <li>
+            <strong>User positioning:</strong> To show you how your salary
+            compares to market averages
+          </li>
+        </ul>
 
-            <h3>4.1 Overview of Initial Dataset</h3>
-            <p>Our initial database contains <strong>151 verified salary entries</strong> collected from publicly shared salary information on platforms where professionals voluntarily disclosed their salaries. This seed data provides:</p>
-            <ul>
-                <li><strong>27 countries</strong> represented across 5 continents</li>
-                <li><strong>21 currencies</strong> including NOK, USD, EUR, GBP, and more</li>
-                <li><strong>13 job categories</strong> from technology to healthcare to education</li>
-                <li><strong>Norwegian focus:</strong> 34 entries (22.5% of dataset) from Norway covering Oslo, Bergen, Trondheim, and Stavanger</li>
-                <li><strong>Time period:</strong> 2020-2025, with most entries from 2024-2025</li>
-            </ul>
+        <h3>4.2 Service Improvement</h3>
+        <ul>
+          <li>To improve app functionality and user experience</li>
+          <li>To develop new features based on user needs</li>
+          <li>To fix bugs and technical issues</li>
+          <!--                <li>To analyze usage patterns and optimize performance</li>-->
+        </ul>
 
-            <h3>4.2 Data Sources</h3>
-            <p>We collected salary data only from publicly available sources where professionals voluntarily shared their salary information:</p>
-            <ul>
-                <li><strong>Reddit:</strong> Salary transparency communities including r/cscareerquestions, r/nursing, r/teachers, r/norge, and other career-focused subreddits</li>
-                <li><strong>Levels.fyi:</strong> Public tech salary data shared by professionals</li>
-                <li><strong>Glassdoor:</strong> Verified employee salary reports</li>
-                <li><strong>Blind:</strong> Anonymous professional community salary discussions</li>
-                <li><strong>Norwegian platforms:</strong> Kode24 (tech salary discussions), Norwegian Reddit communities, and tech Slack communities</li>
-                <li><strong>LinkedIn Salary Insights:</strong> Publicly available salary ranges</li>
-            </ul>
+        <h3>4.3 Communications</h3>
+        <ul>
+          <li>To send important service updates and notifications</li>
+          <li>To respond to your inquiries and support requests</li>
+          <!--                <li>To send optional newsletters (only with your explicit consent)</li>-->
+        </ul>
 
-            <h3>4.3 Collection Methodology</h3>
-            <p>Our approach to collecting seed data was designed with privacy and accuracy as top priorities:</p>
-            <ul>
-                <li><strong>Public sources only:</strong> We only collected salaries that people chose to share publicly on salary transparency platforms</li>
-                <li><strong>Full anonymization:</strong> All data was anonymized during collection—no names, company names, email addresses, or other identifying information was collected</li>
-                <li><strong>Manual verification:</strong> Each entry was manually reviewed and cross-referenced against market data for reasonableness</li>
-                <li><strong>Geographic limitation:</strong> Location data is limited to city level only</li>
-                <li><strong>Quality control:</strong> We removed outliers and entries that couldn't be verified against multiple sources</li>
-            </ul>
+        <h3>4.4 Legal Compliance</h3>
+        <ul>
+          <li>To comply with legal obligations</li>
+          <li>To protect our rights and prevent fraud</li>
+          <li>To enforce our Terms of Service</li>
+        </ul>
+      </section>
 
-            <h3>4.4 Verification Process</h3>
-            <p>Every entry in our seed dataset underwent rigorous verification:</p>
-            <ul>
-                <li>Cross-referenced against market salary data for each role and location</li>
-                <li>Validated that job titles match our standardized categories</li>
-                <li>Confirmed currencies align with countries and regions</li>
-                <li>Verified years of experience correlate reasonably with salary levels</li>
-                <li>Removed statistically unlikely entries (outliers more than 30% above/below market averages)</li>
-                <li>Ensured compliance with our job category taxonomy (35 categories) and industry classification (114 sectors)</li>
-            </ul>
+      <section>
+        <h2>5. Legal Basis for Processing (GDPR)</h2>
+        <p>
+          Under the General Data Protection Regulation (GDPR), we process your
+          personal data based on the following legal grounds:
+        </p>
+        <ul>
+          <li>
+            <strong>Consent:</strong> When you create an account and submit
+            salary data, you provide explicit consent for us to process this
+            information (Art. 6(1)(a) GDPR)
+          </li>
+          <li>
+            <strong>Legitimate Interests:</strong> We have a legitimate interest
+            in preventing fraud, ensuring data quality, and improving our
+            services (Art. 6(1)(f) GDPR)
+          </li>
+          <li>
+            <strong>Legal Obligations:</strong> In some cases, we may need to
+            process data to comply with legal requirements (Art. 6(1)(c) GDPR)
+          </li>
+        </ul>
+        <p>
+          You have the right to withdraw your consent at any time by deleting
+          your account or contacting us.
+        </p>
+      </section>
 
-            <h3>4.5 Privacy Protection for Seed Data</h3>
-            <div class="highlight-box">
-                <p><strong>Important:</strong> The seed data is subject to the same privacy protections as user-contributed data:</p>
-                <ul>
-                    <li>No personal identifiable information included</li>
-                    <li>No company names or identifying details</li>
-                    <li>Only publicly shared information used</li>
-                    <li>Full GDPR compliance maintained</li>
-                    <li>Location limited to city level only</li>
-                </ul>
-            </div>
+      <section>
+        <h2>6. How We Protect Anonymity</h2>
+        <p>Lonnskart is designed with privacy as a core principle:</p>
 
-            <h3>4.6 Norwegian Market Coverage</h3>
-            <p>We paid special attention to collecting comprehensive Norwegian salary data:</p>
-            <ul>
-                <li><strong>34 verified entries</strong> from Norway (2020-2025)</li>
-                <li><strong>Cities covered:</strong> Oslo, Bergen, Trondheim, Stavanger</li>
-                <li><strong>Primary sectors:</strong> Technology, Healthcare, Education</li>
-                <li><strong>Example salary ranges:</strong>
-                    <ul>
-                        <li>Junior Software Engineers: ~655,000 NOK</li>
-                        <li>Software Engineers: 650,000 - 970,000 NOK</li>
-                        <li>Senior Software Engineers: 720,000 - 920,000 NOK</li>
-                        <li>Registered Nurses: 510,000 - 630,000 NOK</li>
-                        <li>Teachers: 450,000 - 510,000 NOK</li>
-                    </ul>
-                </li>
-            </ul>
+        <h3>6.1 Anonymous Contributions</h3>
+        <ul>
+          <li>
+            Salary submissions are <strong>not</strong> directly linked to your
+            account in our database
+          </li>
+          <li>
+            We use cryptographic hashing to create pseudonymous contributor
+            identifiers
+          </li>
+          <li>Other users cannot see who submitted specific salary data</li>
+        </ul>
 
-            <h3>4.7 Limitations and Disclaimers</h3>
-            <p>We believe in honest communication about the limitations of our seed data:</p>
-            <ul>
-                <li><strong>Sample size:</strong> 151 entries is our foundation—some roles and locations have limited representation</li>
-                <li><strong>Self-reported data:</strong> All salaries are self-reported by individuals; we verify for reasonableness but cannot independently confirm every submission</li>
-                <li><strong>Time periods:</strong> Data spans 2020-2025; older entries may not reflect current market rates</li>
-                <li><strong>Geographic bias:</strong> Heavy concentration in US (36.4%) and Norwegian (22.5%) markets</li>
-                <li><strong>Role coverage:</strong> Tech roles are overrepresented due to active online salary discussions on platforms like Reddit</li>
-            </ul>
+        <h3>6.2 Aggregation and Privacy Protection</h3>
+        <ul>
+          <li>We aggregate data to prevent identification of individuals</li>
+          <li>
+            In cases where salary data might identify someone (e.g., unique job
+            titles in small companies), we may exclude or generalize that data
+          </li>
+          <li>We do not share raw individual submissions with third parties</li>
+        </ul>
 
-            <h3>4.8 Ethical Data Collection</h3>
-            <p>Our approach respects individual privacy and follows the spirit of salary transparency movements:</p>
-            <ul>
-                <li>We only use publicly shared information where individuals voluntarily disclosed their salaries</li>
-                <li>We don't scrape private company data or require unauthorized access</li>
-                <li>We respect GDPR and Norwegian data protection laws</li>
-                <li>We prioritize quality over quantity—manually reviewing each entry rather than scraping thousands of unverified entries</li>
-            </ul>
+        <h3>6.3 Limitations of Anonymity</h3>
+        <div class="highlight-box">
+          <p>
+            <strong>Important:</strong> While we take extensive measures to
+            protect anonymity, you should be aware that:
+          </p>
+          <ul>
+            <li>
+              Highly specific combinations of metadata (e.g., rare job title +
+              specific location + uncommon experience level) could potentially
+              be identifying
+            </li>
+            <li>
+              You should avoid including identifying information in free-text
+              fields
+            </li>
+            <li>
+              True anonymity cannot be guaranteed if you choose to share very
+              unique data points
+            </li>
+          </ul>
+        </div>
+      </section>
 
-            <h3>4.9 Growing the Database</h3>
-            <p>The 151 seed entries are just our foundation. Lonnskart's true value comes from <strong>community contributions</strong>—your salary submissions. Every verified salary you add:</p>
-            <ul>
-                <li>Helps professionals in your field make informed decisions</li>
-                <li>Increases transparency in the Norwegian and global job markets</li>
-                <li>Creates better negotiation power for everyone</li>
-                <li>Is completely anonymous and secure</li>
-            </ul>
-            <p>We will not continue to add seed data from external sources. All future data growth comes from users like you.</p>
+      <section>
+        <h2>7. Data Retention</h2>
+        <p>We retain your data for different periods depending on the type:</p>
+        <ul>
+          <li>
+            <strong>Account data:</strong> Retained as long as your account is
+            active. The account is deleted immediately after deletion
+          </li>
+          <li>
+            <strong>Salary contributions:</strong> Retained indefinitely to
+            maintain the integrity of our salary database, unless you manually
+            delete them before deleting your account
+          </li>
+          <li>
+            <strong>Analytics data:</strong> Aggregated and anonymized data is
+            retained indefinitely; individual session data is retained for 7
+            days. Revoked sessions are deleted daily
+          </li>
+          <li>
+            <strong>Logs and technical data:</strong> Retained for 90 days for
+            security and troubleshooting purposes
+          </li>
+        </ul>
+        <p>
+          You can request deletion of your data at any time (see Section 11).
+        </p>
+      </section>
 
-            <h3>4.10 Transparency Updates</h3>
-            <p>We maintain a detailed <strong>Data Transparency Statement</strong> that provides complete information about our methodology, verification process, and data sources. This statement is regularly updated and available for review.</p>
-        </section>
+      <section>
+        <h2>8. How We Share Your Information</h2>
+        <p>
+          We do <strong>NOT</strong> sell your personal data to third parties.
+          We may share your information only in the following limited
+          circumstances:
+        </p>
 
-        <section>
-            <h2>5. How We Use Your Information</h2>
+        <h3>8.1 Service Providers</h3>
+        <p>
+          We use trusted third-party service providers to help us operate
+          Lonnskart:
+        </p>
+        <ul>
+          <li>
+            <strong>Supabase (Database hosting):</strong> Stores your account
+            and salary data. Supabase is GDPR-compliant and processes data on
+            our behalf.
+          </li>
+          <li>
+            <strong>GeoJS (Geolocation service):</strong> Determines your approximate country
+            from your public IP address to pre-select your country in the app.
+            Your IP address is sent to GeoJS only for this purpose and is not stored by us.</li>
+          <li>
+            <strong>Render (API hosting service):</strong> For hosting and
+            data delivery to the mobile client.
+          </li>
+          <!--                <li><strong>Analytics services:</strong> For anonymous usage statistics (with IP anonymization)</li>-->
+        </ul>
+        <p>
+          All service providers are contractually obligated to protect your data
+          and use it only for the purposes we specify.
+        </p>
 
-            <h3>5.1 Primary Services</h3>
-            <ul>
-                <li><strong>Salary transparency:</strong> To create an anonymous database of salary information for market insights</li>
-                <li><strong>User authentication:</strong> To verify your identity and secure your account</li>
-                <li><strong>Data accuracy:</strong> To prevent spam, fraud, and duplicate submissions through rate limiting</li>
-                <li><strong>Market insights:</strong> To generate aggregated statistics and trends about salary data</li>
-                <li><strong>User positioning:</strong> To show you how your salary compares to market averages</li>
-            </ul>
+        <h3>8.2 Aggregated Public Data</h3>
+        <p>
+          We may publicly share aggregated, anonymized salary statistics that
+          cannot identify individuals (e.g., "Average software developer salary
+          in Oslo is X").
+        </p>
 
-            <h3>4.2 Service Improvement</h3>
-            <ul>
-                <li>To improve app functionality and user experience</li>
-                <li>To develop new features based on user needs</li>
-                <li>To fix bugs and technical issues</li>
-<!--                <li>To analyze usage patterns and optimize performance</li>-->
-            </ul>
+        <h3>8.3 Legal Requirements</h3>
+        <p>
+          We may disclose your information if required by law, court order, or
+          governmental authority, or if necessary to:
+        </p>
+        <ul>
+          <li>Comply with legal processes</li>
+          <li>Protect our rights and property</li>
+          <li>Prevent fraud or security issues</li>
+          <li>Protect the safety of our users or the public</li>
+        </ul>
 
-            <h3>4.3 Communications</h3>
-            <ul>
-                <li>To send important service updates and notifications</li>
-                <li>To respond to your inquiries and support requests</li>
-<!--                <li>To send optional newsletters (only with your explicit consent)</li>-->
-            </ul>
+        <h3>8.4 Business Transfers</h3>
+        <p>
+          If Lonnskart is involved in a merger, acquisition, or sale of assets,
+          your data may be transferred. We will notify you before your data
+          becomes subject to a different privacy policy.
+        </p>
+      </section>
 
-            <h3>4.4 Legal Compliance</h3>
-            <ul>
-                <li>To comply with legal obligations</li>
-                <li>To protect our rights and prevent fraud</li>
-                <li>To enforce our Terms of Service</li>
-            </ul>
-        </section>
+      <section>
+        <h2>9. Your Rights Under GDPR</h2>
+        <p>
+          As a user in the EEA, you have the following rights regarding your
+          personal data:
+        </p>
 
-        <section>
-            <h2>5. Legal Basis for Processing (GDPR)</h2>
-            <p>Under the General Data Protection Regulation (GDPR), we process your personal data based on the following legal grounds:</p>
-            <ul>
-                <li><strong>Consent:</strong> When you create an account and submit salary data, you provide explicit consent for us to process this information (Art. 6(1)(a) GDPR)</li>
-                <li><strong>Legitimate Interests:</strong> We have a legitimate interest in preventing fraud, ensuring data quality, and improving our services (Art. 6(1)(f) GDPR)</li>
-                <li><strong>Legal Obligations:</strong> In some cases, we may need to process data to comply with legal requirements (Art. 6(1)(c) GDPR)</li>
-            </ul>
-            <p>You have the right to withdraw your consent at any time by deleting your account or contacting us.</p>
-        </section>
+        <h3>9.1 Right of Access</h3>
+        <p>
+          You can request a copy of all personal data we hold about you. You can
+          export your salary submissions directly from the app or contact us for
+          a complete data export.
+        </p>
 
-        <section>
-            <h2>6. How We Protect Anonymity</h2>
-            <p>Lonnskart is designed with privacy as a core principle:</p>
+        <h3>9.2 Right to Rectification</h3>
+        <p>
+          You can update or correct your account information and salary
+          submissions at any time through the app settings.
+        </p>
 
-            <h3>6.1 Anonymous Contributions</h3>
-            <ul>
-                <li>Salary submissions are <strong>not</strong> directly linked to your account in our database</li>
-                <li>We use cryptographic hashing to create pseudonymous contributor identifiers</li>
-                <li>Other users cannot see who submitted specific salary data</li>
-            </ul>
+        <h3>9.3 Right to Erasure ("Right to be Forgotten")</h3>
+        <p>
+          You can request deletion of your account and associated data. To do
+          this:
+        </p>
+        <ol>
+          <li>Go to Settings → Profile → Delete Profile in the app, or</li>
+          <li>
+            Contact us directly at support@lonnskart.com
+          </li>
+        </ol>
+        <p>
+          <strong>Please note:</strong> After deletion, we may retain certain
+          anonymized salary data to maintain database integrity, as this data
+          can no longer be linked back to you.
+        </p>
 
-            <h3>6.2 Aggregation and Privacy Protection</h3>
-            <ul>
-                <li>We aggregate data to prevent identification of individuals</li>
-                <li>In cases where salary data might identify someone (e.g., unique job titles in small companies), we may exclude or generalize that data</li>
-                <li>We do not share raw individual submissions with third parties</li>
-            </ul>
+        <h3>9.4 Right to Restrict Processing</h3>
+        <p>
+          You can request that we limit how we use your data in certain
+          circumstances.
+        </p>
 
-            <h3>6.3 Limitations of Anonymity</h3>
-            <div class="highlight-box">
-                <p><strong>Important:</strong> While we take extensive measures to protect anonymity, you should be aware that:</p>
-                <ul>
-                    <li>Highly specific combinations of metadata (e.g., rare job title + specific location + uncommon experience level) could potentially be identifying</li>
-                    <li>You should avoid including identifying information in free-text fields</li>
-                    <li>True anonymity cannot be guaranteed if you choose to share very unique data points</li>
-                </ul>
-            </div>
-        </section>
+        <h3>9.5 Right to Data Portability</h3>
+        <p>
+          You can export your data in a structured, machine-readable format
+          (JSON or CSV).
+        </p>
 
-        <section>
-            <h2>7. Data Retention</h2>
-            <p>We retain your data for different periods depending on the type:</p>
-            <ul>
-                <li><strong>Account data:</strong> Retained as long as your account is active. The account is deleted immediately after deletion</li>
-                <li><strong>Salary submissions:</strong> Retained indefinitely to maintain the integrity of our salary database, unless you request deletion</li>
-                <li><strong>Analytics data:</strong> Aggregated and anonymized data is retained indefinitely; individual session data is retained for 7 days. Revoked sessions are deleted daily</li>
-                <li><strong>Logs and technical data:</strong> Retained for 90 days for security and troubleshooting purposes</li>
-            </ul>
-            <p>You can request deletion of your data at any time (see Section 11).</p>
-        </section>
+        <h3>9.6 Right to Object</h3>
+        <p>
+          You can object to our processing of your data for direct marketing
+          purposes or based on legitimate interests.
+        </p>
 
-        <section>
-            <h2>8. How We Share Your Information</h2>
-            <p>We do <strong>not</strong> sell your personal data to third parties. We may share your information only in the following limited circumstances:</p>
+        <h3>9.7 Right to Withdraw Consent</h3>
+        <p>
+          You can withdraw your consent for data processing at any time by
+          deleting your account.
+        </p>
 
-            <h3>8.1 Service Providers</h3>
-            <p>We use trusted third-party service providers to help us operate Lonnskart:</p>
-            <ul>
-                <li><strong>Supabase (Database hosting):</strong> Stores your account and salary data. Supabase is GDPR-compliant and processes data on our behalf.</li>
-                <li><strong>Cloud infrastructure providers:</strong> For hosting and content delivery; we currently use Render</li>
-<!--                <li><strong>Analytics services:</strong> For anonymous usage statistics (with IP anonymization)</li>-->
-            </ul>
-            <p>All service providers are contractually obligated to protect your data and use it only for the purposes we specify.</p>
+        <h3>9.8 Right to Lodge a Complaint</h3>
+        <div class="contact-box">
+          <p>
+            If you believe we have violated your privacy rights, you have the
+            right to lodge a complaint with your local data protection
+            authority. In Norway, this is:
+          </p>
+          <p>
+            <strong>Datatilsynet</strong> (Norwegian Data Protection
+            Authority)<br />
+            Website:
+            <a href="https://www.datatilsynet.no" target="_blank"
+              >www.datatilsynet.no</a
+            ><br />
+            Email:
+            support@lonnskart.com
+          </p>
+        </div>
+        <p>
+          To exercise any of these rights, please contact us at support@lonnskart.com
+        </p>
+      </section>
 
-            <h3>8.2 Aggregated Public Data</h3>
-            <p>We may publicly share aggregated, anonymized salary statistics that cannot identify individuals (e.g., "Average software developer salary in Oslo is X").</p>
+      <section>
+        <h2>10. Data Security</h2>
+        <p>
+          We implement industry-standard security measures to protect your data:
+        </p>
+        <ul>
+          <li>
+            <strong>Encryption:</strong> All data transmitted between your
+            device and our servers is encrypted using TLS/SSL
+          </li>
+          <li>
+            <strong>Password protection:</strong> Passwords are hashed using
+            bcrypt with salt
+          </li>
+          <li>
+            <strong>Access controls:</strong> Strict internal access controls
+            limit who can access and change user data
+          </li>
+          <li>
+            <strong>Regular security audits:</strong> We regularly review our
+            security practices
+          </li>
+          <li>
+            <strong>Secure infrastructure:</strong> Our hosting provider
+            (Supabase) maintains SOC 2 Type II compliance
+          </li>
+        </ul>
+        <p>
+          However, no method of transmission over the internet is 100% secure.
+          While we strive to protect your data, we cannot guarantee absolute
+          security.
+        </p>
+      </section>
 
-            <h3>8.3 Legal Requirements</h3>
-            <p>We may disclose your information if required by law, court order, or governmental authority, or if necessary to:</p>
-            <ul>
-                <li>Comply with legal processes</li>
-                <li>Protect our rights and property</li>
-                <li>Prevent fraud or security issues</li>
-                <li>Protect the safety of our users or the public</li>
-            </ul>
+      <section>
+        <h2>11. International Data Transfers</h2>
+        <p>
+          Your data is primarily stored and processed within the European
+          Economic Area (EEA). If we transfer data outside the EEA, we ensure
+          appropriate safeguards are in place, such as:
+        </p>
+        <ul>
+          <li>
+            Standard Contractual Clauses (SCCs) approved by the European
+            Commission
+          </li>
+          <li>
+            Service providers with adequate data protection certifications
+          </li>
+        </ul>
+      </section>
 
-            <h3>8.4 Business Transfers</h3>
-            <p>If Lonnskart is involved in a merger, acquisition, or sale of assets, your data may be transferred. We will notify you before your data becomes subject to a different privacy policy.</p>
-        </section>
+      <section>
+        <h2>12. Children's Privacy</h2>
+        <p>
+          Lonnskart is not intended for use by individuals under the age of 18.
+          We do not knowingly collect personal data from children. If we become
+          aware that a child under 18 has provided us with personal data, we
+          will take steps to delete such information.
+        </p>
+      </section>
 
-        <section>
-            <h2>9. Your Rights Under GDPR</h2>
-            <p>As a user in the EEA, you have the following rights regarding your personal data:</p>
+      <section>
+        <h2>13. Cookies and Tracking Technologies</h2>
+        <p>Lonnskart uses minimal cookies and tracking technologies:</p>
 
-            <h3>9.1 Right of Access</h3>
-            <p>You can request a copy of all personal data we hold about you. You can export your salary submissions directly from the app or contact us for a complete data export.</p>
+        <h3>13.1 Essential Cookies</h3>
+        <ul>
+          <li>
+            <strong>Authentication tokens:</strong> To keep you logged in and
+            for user authentication/authorization
+          </li>
+          <li>
+            <strong>Session management:</strong> To maintain your app sessions
+          </li>
+        </ul>
 
-            <h3>9.2 Right to Rectification</h3>
-            <p>You can update or correct your account information and salary submissions at any time through the app settings.</p>
+        <!--            <h3>13.2 Analytics Cookies (Optional)</h3>-->
+        <!--            <p>With your consent, we may use analytics tools to understand app usage. You can opt out of analytics tracking in Settings → Privacy.</p>-->
+        <!--            <p>We do not use advertising cookies or third-party tracking pixels.</p>-->
+      </section>
 
-            <h3>9.3 Right to Erasure ("Right to be Forgotten")</h3>
-            <p>You can request deletion of your account and associated data. To do this:</p>
-            <ol>
-                <li>Go to Settings → Profile → Delete Profile in the app, or</li>
-                <li>Contact us directly at <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="7b080e0b0b14090f3b1714151508101a090f55181416">[email&#160;protected]</a></li>
-            </ol>
-            <p><strong>Please note:</strong> After deletion, we may retain certain anonymized salary data to maintain database integrity, as this data can no longer be linked back to you.</p>
+      <section>
+        <h2>14. Changes to This Privacy Policy</h2>
+        <p>
+          We may update this Privacy Policy from time to time to reflect changes
+          in our practices or for legal, operational, or regulatory reasons. We
+          will notify you of any material changes by:
+        </p>
+        <ul>
+          <li>Posting the new Privacy Policy in the app</li>
+          <li>Updating the "Last Updated" date</li>
+          <li>Sending you a notification (for significant changes)</li>
+        </ul>
+        <p>
+          Your continued use of Lonnskart after changes become effective
+          constitutes your acceptance of the revised policy.
+        </p>
+      </section>
 
-            <h3>9.4 Right to Restrict Processing</h3>
-            <p>You can request that we limit how we use your data in certain circumstances.</p>
-
-            <h3>9.5 Right to Data Portability</h3>
-            <p>You can export your data in a structured, machine-readable format (JSON or CSV).</p>
-
-            <h3>9.6 Right to Object</h3>
-            <p>You can object to our processing of your data for direct marketing purposes or based on legitimate interests.</p>
-
-            <h3>9.7 Right to Withdraw Consent</h3>
-            <p>You can withdraw your consent for data processing at any time by deleting your account.</p>
-
-            <h3>9.8 Right to Lodge a Complaint</h3>
-            <div class="contact-box">
-                <p>If you believe we have violated your privacy rights, you have the right to lodge a complaint with your local data protection authority. In Norway, this is:</p>
-                <p><strong>Datatilsynet</strong> (Norwegian Data Protection Authority)<br>
-                Website: <a href="https://www.datatilsynet.no" target="_blank">www.datatilsynet.no</a><br>
-                Email: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="92e2fde1e6f9f3e1e1f7d2f6f3e6f3e6fbfee1ebfcf7e6bcfcfd">[email&#160;protected]</a></p>
-            </div>
-            <p>To exercise any of these rights, please contact us at <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="f2818782829d8086b29e9d9c9c8199938086dc919d9f">[email&#160;protected]</a>.</p>
-        </section>
-
-        <section>
-            <h2>10. Data Security</h2>
-            <p>We implement industry-standard security measures to protect your data:</p>
-            <ul>
-                <li><strong>Encryption:</strong> All data transmitted between your device and our servers is encrypted using TLS/SSL</li>
-                <li><strong>Password protection:</strong> Passwords are hashed using bcrypt with salt</li>
-                <li><strong>Access controls:</strong> Strict internal access controls limit who can access and change user data</li>
-                <li><strong>Regular security audits:</strong> We regularly review our security practices</li>
-                <li><strong>Secure infrastructure:</strong> Our hosting provider (Supabase) maintains SOC 2 Type II compliance</li>
-            </ul>
-            <p>However, no method of transmission over the internet is 100% secure. While we strive to protect your data, we cannot guarantee absolute security.</p>
-        </section>
-
-        <section>
-            <h2>11. International Data Transfers</h2>
-            <p>Your data is primarily stored and processed within the European Economic Area (EEA). If we transfer data outside the EEA, we ensure appropriate safeguards are in place, such as:</p>
-            <ul>
-                <li>Standard Contractual Clauses (SCCs) approved by the European Commission</li>
-                <li>Service providers with adequate data protection certifications</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>12. Children's Privacy</h2>
-            <p>Lonnskart is not intended for use by individuals under the age of 18. We do not knowingly collect personal data from children. If we become aware that a child under 18 has provided us with personal data, we will take steps to delete such information.</p>
-        </section>
-
-        <section>
-            <h2>13. Cookies and Tracking Technologies</h2>
-            <p>Lonnskart uses minimal cookies and tracking technologies:</p>
-
-            <h3>13.1 Essential Cookies</h3>
-            <ul>
-                <li><strong>Authentication tokens:</strong> To keep you logged in and for user authentication/authorization</li>
-                <li><strong>Session management:</strong> To maintain your app sessions</li>
-            </ul>
-
-<!--            <h3>13.2 Analytics Cookies (Optional)</h3>-->
-<!--            <p>With your consent, we may use analytics tools to understand app usage. You can opt out of analytics tracking in Settings → Privacy.</p>-->
-<!--            <p>We do not use advertising cookies or third-party tracking pixels.</p>-->
-        </section>
-
-        <section>
-            <h2>14. Changes to This Privacy Policy</h2>
-            <p>We may update this Privacy Policy from time to time to reflect changes in our practices or for legal, operational, or regulatory reasons. We will notify you of any material changes by:</p>
-            <ul>
-                <li>Posting the new Privacy Policy in the app</li>
-                <li>Updating the "Last Updated" date</li>
-                <li>Sending you a notification (for significant changes)</li>
-            </ul>
-            <p>Your continued use of Lonnskart after changes become effective constitutes your acceptance of the revised policy.</p>
-        </section>
-
-        <section>
-            <h2>15. Contact Us</h2>
-            <div class="contact-box">
-                <h3>Get in Touch</h3>
-                <p>If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us:</p>
-                <p><strong>Email:</strong> <a href="mailto:support@lonnskart.no">support@lonnskart.no</a></p>
-            </div>
-        </section>
+      <section>
+        <h2>15. Contact Us</h2>
+        <div class="contact-box">
+          <h3>Get in Touch</h3>
+          <p>
+            If you have any questions, concerns, or requests regarding this
+            Privacy Policy or our data practices, please contact us:
+          </p>
+          <p>
+            <strong>Email:</strong>
+            <a href="mailto:support@lonnskart.no">support@lonnskart.no</a>
+          </p>
+        </div>
+      </section>
     </div>
 
     <footer>
-        <p>&copy; 2025 Lonnskart. All rights reserved.</p>
+      <p>&copy; 2025 Lonnskart. All rights reserved.</p>
     </footer>
-</body>
+  </body>
 </html>
