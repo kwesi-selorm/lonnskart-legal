@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Lonnskart Account Deletion - Learn how to delete your Lonnskart account and what happens to your data"
+    />
+    <title>Delete Account - Lonnskart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      :root {
+        --primary-color: #13a4ec;
+        --secondary-color: #4ade80;
+        --text-color: #1f2937;
+        --text-light: #6b7280;
+        --background: #ffffff;
+        --section-bg: #f9fafb;
+        --border-color: #e5e7eb;
+      }
+
+      body {
+        font-family:
+          "Bricolage Grotesque",
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          "Roboto",
+          "Helvetica",
+          "Arial",
+          sans-serif;
+        line-height: 1.4;
+        color: var(--text-color);
+        background: var(--background);
+        padding: 0;
+        margin: 0;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      header {
+        text-align: center;
+        padding: 40px 20px 0;
+        border-bottom: 1px solid var(--border-color);
+      }
+
+      header h1 {
+        font-size: 2rem;
+        font-weight: 700;
+        color: var(--text-color);
+        margin-bottom: 10px;
+      }
+
+      .app-name {
+        font-size: 2.5rem;
+        font-weight: 800;
+        color: var(--primary-color);
+        margin-bottom: 5px;
+      }
+
+      .last-updated {
+        color: var(--text-light);
+        font-size: 0.9rem;
+        margin-top: 10px;
+        padding-bottom: 30px;
+      }
+
+      .summary-box {
+        background: linear-gradient(
+          135deg,
+          rgba(19, 164, 236, 0.1),
+          rgba(74, 222, 128, 0.1)
+        );
+        padding: 5px 20px 20px;
+        border-radius: 8px;
+        border-left: 4px solid var(--primary-color);
+      }
+
+      .summary-box h2 {
+        color: var(--primary-color);
+        font-size: 1.3rem;
+        margin-top: 10px;
+        margin-bottom: 15px;
+      }
+
+      .summary-box ul {
+        list-style: none;
+        padding-left: 0;
+      }
+
+      .summary-box li {
+        padding: 8px 0 8px 25px;
+        position: relative;
+        color: var(--text-color);
+      }
+
+      .summary-box li:before {
+        content: "✓";
+        position: absolute;
+        left: 0;
+        color: var(--secondary-color);
+        font-weight: bold;
+      }
+
+      h2 {
+        color: var(--text-color);
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-top: 40px;
+        margin-bottom: 15px;
+        padding-bottom: 10px;
+        border-bottom: 2px solid var(--border-color);
+      }
+
+      h3 {
+        color: var(--text-color);
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-top: 25px;
+        margin-bottom: 12px;
+      }
+
+      p {
+        margin-bottom: 15px;
+        color: var(--text-color);
+      }
+
+      ul,
+      ol {
+        margin-left: 20px;
+        margin-bottom: 15px;
+      }
+
+      li {
+        margin-bottom: 8px;
+        color: var(--text-color);
+      }
+
+      strong {
+        color: var(--text-color);
+        font-weight: 600;
+      }
+
+      .contact-box {
+        background: var(--section-bg);
+        padding: 20px;
+        border-radius: 8px;
+        margin: 30px 0;
+        border: 1px solid var(--border-color);
+      }
+
+      .contact-box h3 {
+        margin-top: 0;
+        color: var(--primary-color);
+      }
+
+      .highlight-box {
+        background: #fef3c7;
+        border-left: 4px solid #f59e0b;
+        padding: 15px;
+        margin: 20px 0;
+        border-radius: 4px;
+      }
+
+      .highlight-box strong {
+        color: #92400e;
+      }
+
+      .warning-box {
+        background: #fee2e2;
+        border-left: 4px solid #dc2626;
+        padding: 15px;
+        margin: 20px 0;
+        border-radius: 4px;
+      }
+
+      .warning-box strong {
+        color: #991b1b;
+      }
+
+      .step {
+        display: flex;
+        align-items: flex-start;
+        gap: 16px;
+        padding: 16px 0;
+        border-bottom: 1px solid var(--border-color);
+      }
+
+      .step:last-child {
+        border-bottom: none;
+      }
+
+      .step-number {
+        background: var(--primary-color);
+        color: #ffffff;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 0.95rem;
+        flex-shrink: 0;
+      }
+
+      .step-content {
+        flex: 1;
+      }
+
+      .step-content strong {
+        display: block;
+        margin-bottom: 4px;
+        font-size: 1rem;
+      }
+
+      .step-content p {
+        margin-bottom: 0;
+        color: var(--text-light);
+        font-size: 0.95rem;
+      }
+
+      a {
+        color: var(--primary-color);
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      footer {
+        text-align: center;
+        padding: 40px 20px;
+        margin-top: 60px;
+        border-top: 1px solid var(--border-color);
+        color: var(--text-light);
+        font-size: 0.9rem;
+      }
+
+      @media (max-width: 768px) {
+        .container {
+          padding: 15px;
+        }
+
+        header h1 {
+          font-size: 1.5rem;
+        }
+
+        .app-name {
+          font-size: 2rem;
+        }
+
+        h2 {
+          font-size: 1.3rem;
+        }
+
+        h3 {
+          font-size: 1.1rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="app-name">Lonnskart</div>
+      <h1>Delete Your Account</h1>
+      <p class="last-updated">Last Updated: March 17, 2026</p>
+    </header>
+
+    <div class="container">
+
+      <div class="summary-box">
+        <h2>What You Should Know</h2>
+        <ul>
+          <li>Account deletion is permanent and cannot be undone</li>
+          <li>Your personal information is deleted immediately upon request</li>
+          <li>Anonymized salary contributions may be retained to preserve data integrity</li>
+          <li>You can delete your account directly from within the app</li>
+          <li>Alternatively, you can contact us to request deletion by email</li>
+        </ul>
+      </div>
+
+      <section>
+        <h2>How to Delete Your Account</h2>
+        <p>
+          You can delete your Lonnskart account at any time using either of the
+          two methods below. Deletion is immediate — once confirmed, your
+          account cannot be recovered.
+        </p>
+
+        <h3>Option 1: Delete from within the app (recommended)</h3>
+        <p>Follow these steps in the Lonnskart app:</p>
+
+        <div>
+          <div class="step">
+            <div class="step-number">1</div>
+            <div class="step-content">
+              <strong>Open the app and go to your Account</strong>
+              <p>Tap the top-left menu icon on the Explore screen to open the side drawer, then tap Account.</p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-number">2</div>
+            <div class="step-content">
+              <strong>Tap Delete Account button</strong>
+              <p>On the bottom of the Settings screen you will find a list of account action buttons, tap Delete Account.</p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-number">3</div>
+            <div class="step-content">
+              <strong>Confirm deletion</strong>
+              <p>Read the confirmation prompt carefully and confirm. Your account will be deleted immediately.</p>
+            </div>
+          </div>
+        </div>
+
+        <h3>Option 2: Request deletion by email</h3>
+        <p>
+          If you are unable to access the app, you can request account deletion
+          by emailing us at
+          <a href="mailto:support@lonnskart.com">support@lonnskart.com</a>
+          from the email address associated with your account. Include
+          "Account Deletion Request" in the subject line. We will process your
+          request within 30 days.
+        </p>
+      </section>
+
+      <section>
+        <h2>What Data Gets Deleted</h2>
+
+        <h3>Deleted immediately</h3>
+        <ul>
+          <li>Your account credentials and authentication data</li>
+          <li>Your email address and any personal identifiers</li>
+          <li>All sessions activities</li>
+        </ul>
+
+        <h3>Retained after deletion</h3>
+        <p>
+          Lonnskart is a community-driven salary transparency platform. Salary
+          contributions are anonymized before being stored — they are not linked
+          to your identity in any way. To preserve the integrity of the
+          platform's data for the wider community, anonymized salary entries you
+          have submitted may be retained after your account is deleted.
+        </p>
+
+        <div class="highlight-box">
+          <strong>Note:</strong> Retained salary data contains no personal
+          identifiers. It cannot be traced back to you after your account is
+          deleted. It is used solely to provide salary insights to other
+          professionals on the platform.
+        </div>
+      </section>
+
+      <section>
+        <h2>Retention Period</h2>
+        <p>
+          Personal data (email, credentials) is deleted
+          immediately upon account deletion. Anonymized salary contributions
+          have no fixed deletion date, as they form part of the platform's
+          aggregated dataset and contain no personal information.
+        </p>
+        <p>
+          If you have specific concerns about data retention, please contact us
+          at <a href="mailto:support@lonnskart.com">support@lonnskart.com</a>.
+        </p>
+      </section>
+
+      <div class="warning-box">
+        <strong>Deletion is permanent.</strong> Once your account is deleted,
+        it cannot be recovered. If you wish to use Lonnskart again in the
+        future, you will need to create a new account.
+      </div>
+
+      <section>
+        <h2>Further Information</h2>
+        <p>
+          For more information about how Lonnskart handles your data, please
+          review our full
+          <a href="https://legal.lonnskart.com/privacy-policy.html">Privacy Policy</a>.
+          For general questions about your rights or our data practices, you can
+          also reach us via the Support screen within the app.
+        </p>
+
+        <div class="contact-box">
+          <h3>Need Help?</h3>
+          <p>
+            If you have any questions about account deletion or your data,
+            please contact us:
+          </p>
+          <p>
+            <strong>Email:</strong>
+            <a href="mailto:support@lonnskart.com">support@lonnskart.com</a>
+          </p>
+          <p>
+            <strong>In-App:</strong> Use the Support screen in Settings or
+            Profile
+          </p>
+          <p><strong>Response Time:</strong> Within 24-48 hours</p>
+        </div>
+      </section>
+
+    </div>
+
+    <footer>
+      <p>
+        &copy; 2026 Lonnskart. All rights reserved. &nbsp;|&nbsp;
+        <a href="https://legal.lonnskart.com/privacy-policy.html">Privacy Policy</a>
+        &nbsp;|&nbsp;
+        <a href="https://legal.lonnskart.com/terms-of-service.html">Terms of Service</a>
+      </p>
+    </footer>
+  </body>
+</html>
